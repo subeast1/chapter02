@@ -1,4 +1,4 @@
-package paint;
+package com.jx372.paint.shape;
 
 public class Rect extends Shape {
 	private int x1;

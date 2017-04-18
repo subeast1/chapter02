@@ -1,4 +1,4 @@
-package paint;
+package com.jx372.paint.shape;
 
 public class Circle extends Shape {
 	private int x;
@@ -28,6 +28,11 @@ public class Circle extends Shape {
 	}
 	public void setRadius(int radius) {
 		this.radius = radius;
+	}
+
+	@Override
+	public void resize(double rate) {
+		radius = (int)(radius * rate);
 	}
 	
 }
